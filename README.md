@@ -36,4 +36,28 @@ In order to get this project up and running
             - update-database
 
 - The last step run the IIS Express and voila you have the LMS Razor application up and running successfully!!!
-              
+
+- Screenshots of the outpust screens:
+
+      Display Screen
+                
+    ![LMS-1](https://user-images.githubusercontent.com/65856784/176651440-784e44cd-3fc1-438a-8c74-c5483d1d4ce6.png)
+
+      Books List Screen:
+                
+    ![LMS-2](https://user-images.githubusercontent.com/65856784/176651512-55bbd028-4ba9-408f-b386-f3d04a459e5f.png)
+    
+      Create New Books Screen:
+                
+    ![LMS-3](https://user-images.githubusercontent.com/65856784/176651493-1379c674-515c-4474-8f29-7cfc7e6e8557.png)
+    
+      Edit Screen:
+                
+    ![LMS-4](https://user-images.githubusercontent.com/65856784/176651502-2f0e0757-9250-4f3e-83ec-d90ec2df027d.png)
+     
+      Delete Screen:
+                
+    ![LMS-5](https://user-images.githubusercontent.com/65856784/176651509-97f39689-de20-4872-ad59-ba429e2f1364.png)
+
+
+
