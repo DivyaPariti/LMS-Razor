@@ -2,7 +2,7 @@
 This is a Library Management System porjet built using ASP.NET CORE and Razor Pages Concept. 
 
 In order to get this project up and running 
-- Fistly, download the Zip folder and unzip it into your local system.
+- Firstly, download the Zip folder and unzip it into your local system.
 - Secondly install all the necessary tools for the project
 
 - Visual Studio 2019 Community Edition 
