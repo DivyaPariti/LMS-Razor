@@ -1,6 +1,7 @@
-# LMS-Razor
+# 📚 LMS-Razor
 This is a Library Management System project built using ASP.NET CORE and Razor Pages Concept. 
 
+# ⚙️ Tools Required
 In order to get this project up and running 
 - Firstly, download the Zip folder and unzip it into your local system.
 - Secondly install all the necessary tools for the project
@@ -28,6 +29,8 @@ In order to get this project up and running
       - Microsoft.EntityFrameworkCore
       - Microsoft.EntityFrameworkCore.SqlServer
       - Microsoft.EntityFrameworkCore.Tools
+      
+# 👾 Steps to execute the code
 - After installing the above packages run migrations(adding migrations adds the tables to your database automatically, it removes the need to add, update, delete, and manage the database tables manually.)
        
        - Commands: 
@@ -37,27 +40,28 @@ In order to get this project up and running
 
 - The last step run the IIS Express and voila you have the LMS Razor application up and running successfully!!!
 
-- Screenshots of the outpust screens:
+# 📸 Snapshots of the output screen:
 
-      Display Screen
-                
-    ![LMS-1](https://user-images.githubusercontent.com/65856784/176651440-784e44cd-3fc1-438a-8c74-c5483d1d4ce6.png)
 
-      Books List Screen:
-                
-    ![LMS-2](https://user-images.githubusercontent.com/65856784/176651512-55bbd028-4ba9-408f-b386-f3d04a459e5f.png)
+             Display Screen
+
+![LMS-1](https://user-images.githubusercontent.com/65856784/176651440-784e44cd-3fc1-438a-8c74-c5483d1d4ce6.png)
+
+Books List Screen:
+               
+![LMS-2](https://user-images.githubusercontent.com/65856784/176651512-55bbd028-4ba9-408f-b386-f3d04a459e5f.png)
     
-      Create New Books Screen:
+Create New Books Screen:
                 
-    ![LMS-3](https://user-images.githubusercontent.com/65856784/176651493-1379c674-515c-4474-8f29-7cfc7e6e8557.png)
+![LMS-3](https://user-images.githubusercontent.com/65856784/176651493-1379c674-515c-4474-8f29-7cfc7e6e8557.png)
     
-      Edit Screen:
+Edit Screen:
                 
-    ![LMS-4](https://user-images.githubusercontent.com/65856784/176651502-2f0e0757-9250-4f3e-83ec-d90ec2df027d.png)
+![LMS-4](https://user-images.githubusercontent.com/65856784/176651502-2f0e0757-9250-4f3e-83ec-d90ec2df027d.png)
      
-      Delete Screen:
+Delete Screen:
                 
-    ![LMS-5](https://user-images.githubusercontent.com/65856784/176651509-97f39689-de20-4872-ad59-ba429e2f1364.png)
+![LMS-5](https://user-images.githubusercontent.com/65856784/176651509-97f39689-de20-4872-ad59-ba429e2f1364.png)
 
 
 
