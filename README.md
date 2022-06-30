@@ -7,11 +7,11 @@ In order to get this project up and running
 
 - Visual Studio 2019 Community Edition 
 
-      (link to download Visual Studio Code: https://code.visualstudio.com/download)
+        link to download Visual Studio Code: https://code.visualstudio.com/download
 
 - Microsoft .NET Core Framework 3.1 
 
-       (link to download dontnet core 3.1: https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
+       link to download dontnet core 3.1: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
 
 - You'll be needing SQL Server in order to store the data into the database for that download:
         
