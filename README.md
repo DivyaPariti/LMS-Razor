@@ -13,6 +13,7 @@ In order to get this project up and running
 
 - You'll be needing SQL Server in order to store the data into the database for that download:
 - Microsoft SQL Server 
+
 &
 - SQL Server Management Studio(SSMS)
 
