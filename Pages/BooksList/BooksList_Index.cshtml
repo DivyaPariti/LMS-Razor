@@ -1,0 +1,42 @@
+﻿@page
+@model LMSRazor.Pages.BooksList.BooksList_IndexModel
+<br />
+<div class="container row p-0 m-0">
+    <div class="col-9">
+        <h2 class="text-info">Book List</h2>
+    </div>
+    <div class="col-3">
+        <a asp-page="BooksList_Create" class="btn btn-info form-control text-white">Create New Book</a>
+    </div>
+
+
+    <div class="col-12 border p-3 mt-3">
+        <form method="post">
+            <div style="display:grid;grid-template-columns:350px 350px 350px;">
+
+                @foreach (var item in Model.Books)
+                {
+                    <div style="background-color:white;margin:10px">
+                        <div style="padding-bottom:10px"><img style="object-fit:contain;width:80%;height:150px" src="@Html.DisplayFor(modelItem => item.Image)" /></div>
+                        <div style="padding-left:10px;padding-bottom:10px">
+                            
+                            <div><span>Book Name : </span> <span>@Html.DisplayFor(modelItem => item.Name)</span></div>
+                            <div><span>Author : </span> <span>@Html.DisplayFor(modelItem => item.Author)</span></div>
+                            <div><span>Category : </span> <span>@Html.DisplayFor(modelItem => item.Genre)</span></div>
+                            <div><span>ISBN : </span> <span>@Html.DisplayFor(modelItem => item.ISBN)</span></div>
+                            <div><span>Number of copies Available : </span> <span>@Html.DisplayFor(modelItem => item.NoofCopies)</span></div>
+                        </div>
+                        <div>
+                            <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm text-white">Edit</a> |
+                            
+                            <button asp-page-handler="Delete" asp-route-id="@item.Id" onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-sm">Delete</button>
+                        </div>
+                    </div>
+                }
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/js/bookList.js"></script>
+}
