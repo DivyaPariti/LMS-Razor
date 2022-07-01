@@ -1,5 +1,12 @@
 # 📚 LMS-Razor
-This is a Library Management System project built using ASP.NET CORE and Razor Pages Concept. 
+Library Management System project built using ASP.NET CORE and Razor Pages Concept. 
+
+A simple LMS portal built to show case the CRUD operations you can perform using the ASP.NET Core. You can perform the basic operations like -
+
+        🔸 Adding any book
+        🔸 Deleting any book
+        🔸 Editing details of any book
+        🔸 Viewing the detials of any book
 
 # ⚙️ Tools Required
 In order to get this project up and running 
