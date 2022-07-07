@@ -15,19 +15,20 @@ In order to get this project up and running
 
 - Visual Studio 2019 Community Edition 
 
-        link to download Visual Studio Code: https://code.visualstudio.com/download
+Visual Studio Code: https://code.visualstudio.com/download
 
 - Microsoft .NET Core Framework 3.1 
 
-       link to download dontnet core 3.1: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
+Dontnet core 3.1: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
 
 - You'll be needing SQL Server in order to store the data into the database for that download:
         
         - Microsoft SQL Server 
-          link to download Microsoft SQL Server: https://www.microsoft.com/en-in/sql-server/sql-server-downloads
-            &
+Microsoft SQL Server: https://www.microsoft.com/en-in/sql-server/sql-server-downloads
+
+           
         - SQL Server Management Studio(SSMS)
-          link to download  SQL Server Management Studio(SSMS): https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+SQL Server Management Studio(SSMS): https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
 
 - Open the file structure in the Visual Studio Code
 - Open the Package Manager; Tools > NuGet Package Manager >  Manage NuGet Packages; and install the following:
